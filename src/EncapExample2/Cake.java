@@ -1,4 +1,4 @@
-package example2;
+package EncapExample2;
 
 import javax.swing.JOptionPane;
 

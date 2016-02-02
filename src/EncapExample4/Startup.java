@@ -1,4 +1,4 @@
-package example4;
+package EncapExample4;
 
 /**
  * Here is an improved version that uses good encapsulation. Notice that the

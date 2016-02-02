@@ -1,4 +1,4 @@
-package example3;
+package EncapExample3;
 
 /**
  * In this poor example the car does not communicate with the Engine. Why not?

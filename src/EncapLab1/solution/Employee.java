@@ -1,4 +1,4 @@
-package lab1.solution;
+package EncapLab1.solution;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

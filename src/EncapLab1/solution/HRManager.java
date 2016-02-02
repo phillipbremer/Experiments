@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package lab1.solution;
+package EncapLab1.solution;
 
 /**
  *

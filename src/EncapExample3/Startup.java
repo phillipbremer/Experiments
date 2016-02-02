@@ -1,4 +1,4 @@
-package example3;
+package EncapExample3;
 
 /**
  * This is another poor example of encapsulation, but from a different

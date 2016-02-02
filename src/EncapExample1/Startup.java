@@ -1,4 +1,4 @@
-package example1;
+package EncapExample1;
 
 /**
  * This is an example of a program that violates encapsulation rules. Proper

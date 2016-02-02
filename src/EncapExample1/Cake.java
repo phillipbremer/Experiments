@@ -1,4 +1,4 @@
-package example1;
+package EncapExample1;
 
 import javax.swing.JOptionPane;
 
@@ -26,6 +26,10 @@ public class Cake {
     
     public int getQuantity() {
         return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
     
     /* 

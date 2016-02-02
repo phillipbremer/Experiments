@@ -1,4 +1,4 @@
-package example2;
+package EncapExample2;
 
 /**
  * This example fixes the problems in example1 and follows good encapsulation.

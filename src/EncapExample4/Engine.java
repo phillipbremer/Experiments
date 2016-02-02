@@ -1,4 +1,4 @@
-package example4;
+package EncapExample4;
 
 /**
  *

@@ -1,4 +1,4 @@
-package example4;
+package EncapExample4;
 
 /**
  * In this good example, notice that the Car talks to the engine so that
