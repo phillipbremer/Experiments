@@ -1,4 +1,4 @@
-package lab1;
+package EncapLab1;
 
 /**
  * In this lab your challenge is to fix the code in both classes to use
@@ -19,8 +19,9 @@ public class Startup {
             may need to create a new class that talks to Employee. This does
             not have to be a GUI class.
         */
-        Employee employee = new Employee();
-        employee.firstName = "Peter";
+        HRManager employee = new HRManager();
+        
+        /*employee.firstName = "Peter";
         employee.lastName = "Piper";
         employee.ssn = "333-1234";
         
@@ -28,7 +29,7 @@ public class Startup {
         employee.meetWithHrForBenefitAndSalryInfo();
         employee.reviewDeptPolicies();
 
-        System.out.println("The employee's status is: " + employee.getStatus());
+        System.out.println("The employee's status is: " + employee.getStatus())*/;
     }
     
     
