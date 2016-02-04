@@ -10,5 +10,6 @@ package EncapLab1;
  * @author pbremer
  */
 public class Company {
-    
+    private String asf;
+    //I'm not quite sure what to do here so... PLACEHOLDER!
 }
