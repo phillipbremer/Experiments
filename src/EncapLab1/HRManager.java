@@ -13,5 +13,17 @@ import java.util.Date;
  * @author pbremer
  */
 public class HRManager {
+    private Employee employee;
+    public void orientNewEmployee(String firstName, String lastName, String ssn){
+        Employee emp = new Employee();
+        emp.setFirstName(firstName);
+        emp.setLastName(lastName);
+        emp.setSsn(ssn);
+        emp.doOrientation("A100");
+        employee = emp;
+    }
+        public String getEmployeeStatus() {
+        return employee.getStatus();
+        }
     
 }
