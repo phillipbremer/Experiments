@@ -13,10 +13,25 @@ import java.util.List;
  * @author pbremer
  */
 public class Vet {
-    private List<Animal> patientList = new ArrayList<>();
+    //private List<Animal> patientList = new ArrayList<>();
+    private Animal[] patientList = new Animal[3];
     
-    public void addAnimalToPatientList(Animal animal){
+    public void askAnimalToSpeak(Animal a){
+        a.speak();
+    }
+    
+    public Animal[] getPatientList(){
+        return patientList;
+    }
+    
+    public void setPatientList(Animal[] patientList) {
+        this.patientList = patientList;
+    }
+    
+   /* public void addAnimalToPatientList(Animal animal){
         patientList.add(animal);
         animal.speak();
-    }
+    }*/
+
+    
 }

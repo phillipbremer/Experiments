@@ -29,5 +29,15 @@ public class Startup1 {
         for(Animal a : animals) {
             a.speak();
         }
+        
+        Vet vet = new Vet();
+        vet.setPatientList(animals);
+        vet.askAnimalToSpeak(null);
+        
+        Duck duck = (Duck)animals[2];
+        duck.paddle();
+        
+        /*Animal a = animals[2];
+        ((Duck)a).paddle();*/
     }
 }

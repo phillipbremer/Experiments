@@ -13,4 +13,7 @@ public class Duck implements Animal {
     public void speak(){
         System.out.println("quack");
     }
+    public void paddle(){
+        System.out.println("I'm paddling!");   
+    }
 }
