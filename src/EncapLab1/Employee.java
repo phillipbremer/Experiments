@@ -94,6 +94,9 @@ public class Employee {
     }
 
     public void setFirstName(String firstName) {
+        if(firstName == null || firstName.length() < 2){
+            System.out.println("Sorry, name is mandatory.");
+        }
         this.firstName = firstName;
     }
 
