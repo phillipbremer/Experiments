@@ -10,6 +10,23 @@ package EncapLab1;
  * @author pbremer
  */
 public class Company {
-    private String asf;
-    //I'm not quite sure what to do here so... PLACEHOLDER!
+    private HRManager hr;
+    
+    public Company(){
+        hr = new HRManager();
+    }
+    
+    public void hireEmployee(String firstName, String lastName, String ssn){
+        hr.hireEmployee(firstName, lastName, ssn);
+    }
+    
+    public HRManager getHr() {
+        return hr;
+    }
+
+    public void setHr(HRManager hr) {
+        this.hr = hr;
+    }
+    
+    
 }

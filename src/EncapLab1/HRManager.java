@@ -14,14 +14,29 @@ import java.util.Date;
  */
 public class HRManager {
     private Employee employee;
-    public void orientNewEmployee(String firstName, String lastName, String ssn){
+    
+    /* public void hireEmployee(Employee emp){
+        employee = emp;
+    }
+    
+    //Secondary option
+   public void orientNewEmployee(Employee emp){
+        employee = emp;
+    }*/
+    
+    public void hireEmployee(String firstName, String lastName, String ssn){
         Employee emp = new Employee();
         emp.setFirstName(firstName);
         emp.setLastName(lastName);
         emp.setSsn(ssn);
-        emp.doOrientation("A100");
+        orientEmployee();
         employee = emp;
     }
+    
+    public void orientEmployee(){
+        employee.doOrientation("A101");
+    }
+    
         public String getEmployeeStatus() {
         return employee.getStatus();
         }

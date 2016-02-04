@@ -5,7 +5,7 @@ package EncapLab1;
  * proper encapsulation and the other best practices as explained by 
  * your instructor.
  *
- * @author      Jim Lombardo, WCTC Instructor
+ * @author      Phillip Bremer
  * @version     1.01
  */
 public class Startup {
@@ -19,9 +19,13 @@ public class Startup {
             may need to create a new class that talks to Employee. This does
             not have to be a GUI class.
         */
-        HRManager hrEmployee = new HRManager();
-        hrEmployee.orientNewEmployee("John", "Smith", "555-555-5551");
-        System.out.println("The employee's status is: " + hrEmployee.getEmployeeStatus());
+        
+        Company company = new Company();
+        company.hireEmployee("John", "Doe", "555-55-5551");
+        
+        /*HRManager hrEmployee = new HRManager();
+        hrEmployee.hireEmployee("John", "Smith", "555-555-5551");
+        System.out.println("The employee's status is: " + hrEmployee.getEmployeeStatus());*/
         /*employee.firstName = "Peter";
         employee.lastName = "Piper";
         employee.ssn = "333-1234";

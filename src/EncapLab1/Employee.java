@@ -8,7 +8,7 @@ import java.util.Date;
  * proper encapsulation and the other best practices as explained by 
  * your instructor.
  *
- * @author      Jim Lombardo, WCTC Instructor
+ * @author      Phillip Bremer
  * @version     1.01
  */
 public class Employee {
@@ -28,7 +28,7 @@ public class Employee {
     }
     
     private String getFormattedDate() {
-        SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("Mm/dd/yyyy");
         return sdf.format(currentDate);
     }
     
@@ -40,13 +40,11 @@ public class Employee {
         System.out.println("Completed orientation on: " + getFormattedDate());
     }
 
-    // Assume this must be performed first
     private void meetWithHrForBenefitAndSalryInfo() {
         metWithHr = true;
         System.out.println("Met with HR on: " + getFormattedDate());
     }
 
-    // Assume this is must be performed second
     private void meetDepartmentStaff() {
         if(metWithHr) {
             metDeptStaff = true;
@@ -57,7 +55,6 @@ public class Employee {
         }
     }
 
-    // Assume this must be performed third
     private void reviewDeptPolicies() {
         if(metWithHr && metDeptStaff) {
             reviewedDeptPolicies = true;
@@ -69,7 +66,6 @@ public class Employee {
         }
     }
 
-    // Assume this must be performed 4th
     private void moveIntoCubicle(String cubeId) {
         if(metWithHr && metDeptStaff && reviewedDeptPolicies) {
             this.cubeId = cubeId;
